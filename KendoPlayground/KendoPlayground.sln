@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{39242C29-2F07-4C6D-9FEC-166624154252}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{44F8401A-1F4F-4D25-9E4B-99CA0CE7B8D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5D7B5524-7418-4682-AA64-5C6367734D72}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Kendo.PlayGround", "Kendo.PlayGround.Development\Kendo.PlayGround.sqlproj", "{37640623-A1DD-48C5-86C0-652DD115766A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37640623-A1DD-48C5-86C0-652DD115766A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37640623-A1DD-48C5-86C0-652DD115766A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37640623-A1DD-48C5-86C0-652DD115766A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{37640623-A1DD-48C5-86C0-652DD115766A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37640623-A1DD-48C5-86C0-652DD115766A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37640623-A1DD-48C5-86C0-652DD115766A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37640623-A1DD-48C5-86C0-652DD115766A} = {39242C29-2F07-4C6D-9FEC-166624154252}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02C2E377-D5DE-437E-A442-D30CB0463188}
+	EndGlobalSection
+EndGlobal
