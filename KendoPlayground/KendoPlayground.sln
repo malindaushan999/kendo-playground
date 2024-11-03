@@ -11,7 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5D7B5524
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Kendo.PlayGround", "Kendo.PlayGround.Development\Kendo.PlayGround.sqlproj", "{37640623-A1DD-48C5-86C0-652DD115766A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kendo.PlayGround.WebUI", "Kendo.PlayGround.WebUI\Kendo.PlayGround.WebUI.csproj", "{ACDEBA49-1312-4898-9857-5939B22CF62D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kendo.PlayGround.WebUI", "Kendo.PlayGround.WebUI\Kendo.PlayGround.WebUI.csproj", "{ACDEBA49-1312-4898-9857-5939B22CF62D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kendo.PlayGround.Domain", "Kendo.PlayGround.Domain\Kendo.PlayGround.Domain.csproj", "{2D44306F-CF04-4111-89A6-865CDBB2B4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kendo.PlayGround.Persistence", "Kendo.PlayGround.Persistance\Kendo.PlayGround.Persistence.csproj", "{F8F027BB-CE01-4E92-9DD7-9C8A174C82D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kendo.PlayGround.Core", "Kendo.PlayGround.Core\Kendo.PlayGround.Core.csproj", "{AACC80C1-2EAC-43D2-A633-B993D5C239C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,18 @@ Global
 		{ACDEBA49-1312-4898-9857-5939B22CF62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACDEBA49-1312-4898-9857-5939B22CF62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACDEBA49-1312-4898-9857-5939B22CF62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D44306F-CF04-4111-89A6-865CDBB2B4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D44306F-CF04-4111-89A6-865CDBB2B4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D44306F-CF04-4111-89A6-865CDBB2B4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D44306F-CF04-4111-89A6-865CDBB2B4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F027BB-CE01-4E92-9DD7-9C8A174C82D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F027BB-CE01-4E92-9DD7-9C8A174C82D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F027BB-CE01-4E92-9DD7-9C8A174C82D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F027BB-CE01-4E92-9DD7-9C8A174C82D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACC80C1-2EAC-43D2-A633-B993D5C239C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACC80C1-2EAC-43D2-A633-B993D5C239C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACC80C1-2EAC-43D2-A633-B993D5C239C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACC80C1-2EAC-43D2-A633-B993D5C239C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +54,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{37640623-A1DD-48C5-86C0-652DD115766A} = {39242C29-2F07-4C6D-9FEC-166624154252}
 		{ACDEBA49-1312-4898-9857-5939B22CF62D} = {44F8401A-1F4F-4D25-9E4B-99CA0CE7B8D5}
+		{2D44306F-CF04-4111-89A6-865CDBB2B4FC} = {44F8401A-1F4F-4D25-9E4B-99CA0CE7B8D5}
+		{F8F027BB-CE01-4E92-9DD7-9C8A174C82D8} = {44F8401A-1F4F-4D25-9E4B-99CA0CE7B8D5}
+		{AACC80C1-2EAC-43D2-A633-B993D5C239C9} = {44F8401A-1F4F-4D25-9E4B-99CA0CE7B8D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02C2E377-D5DE-437E-A442-D30CB0463188}
